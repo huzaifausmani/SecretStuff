@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "puppeteer": "^19.6.3",
+    "whatsapp-cloud-api": "^0.2.6"
+  },
+  "name": "secretstuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzaifausmani/SecretStuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huzaifausmani/SecretStuff/issues"
+  },
+  "homepage": "https://github.com/huzaifausmani/SecretStuff#readme",
+  "description": ""
+}

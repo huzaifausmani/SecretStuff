@@ -1,0 +1,5 @@
+node_modules
+#This will ignore the bunch of memes 
+getMemes/memes/*
+#As ignoring memes would make the meme folder empty so to keep git from ignoring the folder
+!getMemes/memes/.gitkeep

@@ -23,6 +23,6 @@ import puppeteer from 'puppeteer'; // set type : module in package.json to use i
     const meme = memes[Math.floor(Math.random() * memes.length)];
     await page.goto(meme); // goes to one of that url 
     const memeName = meme.split('/')[5].split('.')[0];
-    await page.screenshot({ path: './screenshot/' + memeName + '.png' }); // saves screenshot
+    await page.screenshot({ path: './getMemes/memes/' + memeName + '.png' }); // saves screenshot
     await browser.close()
 })();
