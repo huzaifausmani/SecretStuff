@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "puppeteer": "^19.6.3",
     "whatsapp-cloud-api": "^0.2.6"
   },
@@ -8,6 +9,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node ./iettaBot/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
